@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "test": "mocha src/tests/*.test.js",
-    "preversion": "npm test"
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
