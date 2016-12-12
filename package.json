@@ -1,0 +1,30 @@
+{
+  "name": "init-lib",
+  "version": "0.1.0",
+  "description": "Initial setup for creating and releasing a JavaScript library.",
+  "main": "index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "mocha src/tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjeightyfive/init-lib.git"
+  },
+  "keywords": [
+    "javascript",
+    "boilerplate"
+  ],
+  "author": "Marcin <mjeightyfive@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjeightyfive/init-lib/issues"
+  },
+  "homepage": "https://github.com/mjeightyfive/init-lib#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
+  }
+}
