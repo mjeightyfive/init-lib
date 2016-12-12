@@ -3,9 +3,6 @@
   "version": "0.1.2",
   "description": "Initial setup for creating and releasing a JavaScript library.",
   "main": "index.js",
-  "files": [
-    "dist/"
-  ],
   "scripts": {
     "test": "mocha src/tests/*.test.js",
     "preversion": "npm test",
